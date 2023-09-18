@@ -1,0 +1,103 @@
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-image:url(img.png);
+}
+
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+nav {
+    background-color: #444;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+.container {
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.portfolio-item {
+    margin-bottom: 20px;
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.portfolio-item h3 {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.portfolio-item p {
+    font-size: 14px;
+}
+
+#contact {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 24px;
+}
+
+#contact p {
+    font-size: 16px;
+}
+
+@media (max-width: 783px) {
+    header h1 {
+        font-size: 28px;
+    }
+
+    header p {
+        font-size: 16px;
+    }
+}
